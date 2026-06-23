@@ -57,6 +57,20 @@ The bundled prompts are treated as untrusted research data. The skill extracts
 patterns and creates original prompts instead of executing or blindly copying
 third-party instructions.
 
+### MCP Web Creative Toolkit
+
+A safe orchestration and setup guide for:
+
+- Microsoft Playwright MCP
+- Firecrawl MCP
+- Clipia MCP
+- Chrome MCP
+
+It helps Claude choose between isolated browser QA, web crawling, AI
+image/video generation, and access to the user's live Chrome session. The
+package includes Claude Code instructions and a Claude Desktop configuration
+template without real API keys.
+
 ## Install In Claude
 
 1. Open Claude.
@@ -79,10 +93,12 @@ claude-ai-skills/
 |-- packages/
 |   |-- frontend-design-claude.zip
 |   |-- impeccable-claude.zip
+|   |-- mcp-web-creative-toolkit-claude.zip
 |   |-- system-prompt-researcher-claude.zip
 |   |-- the-council-claude.zip
 |   `-- ui-ux-pro-max-claude.zip
 `-- skills/
+    |-- mcp-web-creative-toolkit/
     |-- system-prompt-researcher/
     `-- the-council/
         `-- SKILL.md
@@ -99,6 +115,11 @@ claude-ai-skills/
 - **System Prompt Researcher** includes research material adapted from
   [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
   under GPL-3.0.
+- **MCP Web Creative Toolkit** documents integrations with
+  [Microsoft Playwright MCP](https://github.com/microsoft/playwright-mcp),
+  [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server),
+  [Clipia MCP](https://github.com/clipia-ai/clipia-mcp), and
+  [Chrome MCP](https://github.com/hangwin/mcp-chrome).
 - **The Council** was created for this repository.
 
 The packaged third-party skills retain their upstream license files where
