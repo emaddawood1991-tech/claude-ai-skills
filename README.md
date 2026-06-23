@@ -3,6 +3,21 @@
 Claude-compatible AI skills collected and packaged for practical design,
 decision-making, and frontend workflows.
 
+## Download Ready-To-Use Skills
+
+| Skill | Best for | Download |
+| --- | --- | --- |
+| The Council | Multi-perspective decisions and execution planning | [ZIP](packages/the-council-claude.zip) |
+| Frontend Design | Distinctive frontend direction and visual quality | [ZIP](packages/frontend-design-claude.zip) |
+| Impeccable | UI polish, animation, typography, spacing, and audits | [ZIP](packages/impeccable-claude.zip) |
+| UI UX Pro Max | Design references, palettes, fonts, and UX guidance | [ZIP](packages/ui-ux-pro-max-claude.zip) |
+| System Prompt Researcher | Prompt architecture research and comparison | [ZIP](packages/system-prompt-researcher-claude-fixed.zip) |
+| MCP Web Creative Toolkit | Browser QA, crawling, Chrome, and AI media MCPs | [ZIP](packages/mcp-web-creative-toolkit-claude.zip) |
+
+> Download a ZIP, upload it through `Claude > Customize > Skills`, and enable
+> the skill. MCP servers require separate configuration as documented in their
+> package.
+
 ## Available Skills
 
 ### The Council
@@ -138,3 +153,17 @@ redistributing or using the package commercially.
 Review every third-party skill and script before enabling code execution.
 Never place API keys, passwords, access tokens, or private company data inside
 a skill package.
+
+## Contributing
+
+Useful contributions are welcome:
+
+- report a broken Claude upload package
+- improve safety or installation guidance
+- suggest a practical new skill
+- update an upstream attribution or license
+- add a verified example workflow
+
+Open an issue with the use case, expected result, and any error message. Do not
+include API keys, private prompts, customer data, or proprietary company
+material.
