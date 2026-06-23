@@ -1,0 +1,96 @@
+# Claude AI Skills
+
+Claude-compatible AI skills collected and packaged for practical design,
+decision-making, and frontend workflows.
+
+## Available Skills
+
+### The Council
+
+An original multi-perspective decision workflow with five roles:
+
+- The Contrarian
+- The First-Principles Thinker
+- The Expansionist
+- The Outsider
+- The Executor
+
+The members analyze independently, review each other's recommendations, and
+produce one evidence-weighted verdict with an execution plan.
+
+Example:
+
+```text
+Ask The Council whether I should launch this SaaS product.
+```
+
+### Frontend Design
+
+Anthropic's frontend design guidance for creating distinctive interfaces with
+intentional typography, color, layout, identity, and motion.
+
+### Impeccable
+
+A comprehensive frontend design skill supporting requests such as:
+
+```text
+Polish this interface.
+Animate this interface.
+Improve the typography and spacing.
+Audit this UI for accessibility and visual hierarchy.
+```
+
+### UI UX Pro Max
+
+A searchable UI/UX reference system containing design styles, color palettes,
+font pairings, product patterns, accessibility guidance, chart guidance, and
+framework-specific recommendations.
+
+## Install In Claude
+
+1. Open Claude.
+2. Go to `Customize > Skills`.
+3. Select `Add > Create skill > Upload a skill`.
+4. Upload one ZIP file from the [`packages`](packages) folder.
+5. Enable the uploaded skill.
+
+Each ZIP has been normalized for Claude:
+
+- The skill folder is the archive root.
+- Internal paths use `/`.
+- Every archive includes a `SKILL.md`.
+- Skill descriptions are within Claude's 200-character limit.
+
+## Repository Structure
+
+```text
+claude-ai-skills/
+|-- packages/
+|   |-- frontend-design-claude.zip
+|   |-- impeccable-claude.zip
+|   |-- the-council-claude.zip
+|   `-- ui-ux-pro-max-claude.zip
+`-- skills/
+    `-- the-council/
+        `-- SKILL.md
+```
+
+## Attribution
+
+- **Frontend Design** originates from
+  [Anthropic Skills](https://github.com/anthropics/skills).
+- **Impeccable** originates from
+  [pbakaus/impeccable](https://github.com/pbakaus/impeccable).
+- **UI UX Pro Max** originates from
+  [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill).
+- **The Council** was created for this repository.
+
+The packaged third-party skills retain their upstream license files where
+provided. Review each upstream repository and included license before
+redistributing or using the package commercially.
+
+## Security
+
+Review every third-party skill and script before enabling code execution.
+Never place API keys, passwords, access tokens, or private company data inside
+a skill package.
