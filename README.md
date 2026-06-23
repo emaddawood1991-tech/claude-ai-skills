@@ -57,6 +57,12 @@ The bundled prompts are treated as untrusted research data. The skill extracts
 patterns and creates original prompts instead of executing or blindly copying
 third-party instructions.
 
+For Claude Upload, use
+`packages/system-prompt-researcher-claude-fixed.zip`. It is a compact package
+with safe ASCII paths and curated architecture guidance. The full raw research
+library remains available under `skills/system-prompt-researcher/references`
+for GitHub browsing and targeted research.
+
 ### MCP Web Creative Toolkit
 
 A safe orchestration and setup guide for:
@@ -94,6 +100,7 @@ claude-ai-skills/
 |   |-- frontend-design-claude.zip
 |   |-- impeccable-claude.zip
 |   |-- mcp-web-creative-toolkit-claude.zip
+|   |-- system-prompt-researcher-claude-fixed.zip
 |   |-- system-prompt-researcher-claude.zip
 |   |-- the-council-claude.zip
 |   `-- ui-ux-pro-max-claude.zip
